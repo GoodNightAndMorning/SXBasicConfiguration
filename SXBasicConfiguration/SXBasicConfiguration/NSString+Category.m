@@ -95,7 +95,7 @@
     }
     
     NSRegularExpression *regularExpression;
-    NSUInteger numberofMatch;
+    long numberofMatch;
     
     int year =0;
     //分为15位、18位身份证进行校验
