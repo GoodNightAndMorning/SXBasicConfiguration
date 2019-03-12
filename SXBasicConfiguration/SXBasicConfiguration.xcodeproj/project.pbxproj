@@ -108,7 +108,24 @@
 			isa = PBXGroup;
 			children = (
 				077D62322237C9E800E07124 /* SXBasicConfiguration.h */,
-				077D62492237CA1700E07124 /* Category */,
+				077D625C2237CA1700E07124 /* SXCategoryHeader.h */,
+				077D624B2237CA1700E07124 /* UIColor+Category.h */,
+				077D624C2237CA1700E07124 /* UIColor+Category.m */,
+				077D624E2237CA1700E07124 /* UIView+Category.m */,
+				077D624F2237CA1700E07124 /* UIView+Category.h */,
+				077D62512237CA1700E07124 /* UITextField+Category.h */,
+				077D62522237CA1700E07124 /* UITextField+Category.m */,
+				077D62542237CA1700E07124 /* NSString+Category.h */,
+				077D62552237CA1700E07124 /* SXAttribute.h */,
+				077D62562237CA1700E07124 /* SXStringCategory.h */,
+				077D62572237CA1700E07124 /* SXAttribute.m */,
+				077D62582237CA1700E07124 /* NSString+Category.m */,
+				077D625A2237CA1700E07124 /* NSDate+Category.m */,
+				077D625B2237CA1700E07124 /* NSDate+Category.h */,
+				077D625E2237CA1700E07124 /* UIImage+Category.m */,
+				077D625F2237CA1700E07124 /* UIImage+Category.h */,
+				077D62612237CA1700E07124 /* UITextView+Category.m */,
+				077D62622237CA1700E07124 /* UITextView+Category.h */,
 				077D62332237C9E800E07124 /* Info.plist */,
 			);
 			path = SXBasicConfiguration;
@@ -121,87 +138,6 @@
 				077D623F2237C9E800E07124 /* Info.plist */,
 			);
 			path = SXBasicConfigurationTests;
-			sourceTree = "<group>";
-		};
-		077D62492237CA1700E07124 /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				077D625C2237CA1700E07124 /* SXCategoryHeader.h */,
-				077D624A2237CA1700E07124 /* UIColor+Category */,
-				077D624D2237CA1700E07124 /* UIView+Category */,
-				077D62502237CA1700E07124 /* UITextField+Category */,
-				077D62532237CA1700E07124 /* NSString+Category */,
-				077D62592237CA1700E07124 /* NSDate+Category */,
-				077D625D2237CA1700E07124 /* UIImage+Category */,
-				077D62602237CA1700E07124 /* UITextView+Category */,
-			);
-			path = Category;
-			sourceTree = "<group>";
-		};
-		077D624A2237CA1700E07124 /* UIColor+Category */ = {
-			isa = PBXGroup;
-			children = (
-				077D624B2237CA1700E07124 /* UIColor+Category.h */,
-				077D624C2237CA1700E07124 /* UIColor+Category.m */,
-			);
-			path = "UIColor+Category";
-			sourceTree = "<group>";
-		};
-		077D624D2237CA1700E07124 /* UIView+Category */ = {
-			isa = PBXGroup;
-			children = (
-				077D624E2237CA1700E07124 /* UIView+Category.m */,
-				077D624F2237CA1700E07124 /* UIView+Category.h */,
-			);
-			path = "UIView+Category";
-			sourceTree = "<group>";
-		};
-		077D62502237CA1700E07124 /* UITextField+Category */ = {
-			isa = PBXGroup;
-			children = (
-				077D62512237CA1700E07124 /* UITextField+Category.h */,
-				077D62522237CA1700E07124 /* UITextField+Category.m */,
-			);
-			path = "UITextField+Category";
-			sourceTree = "<group>";
-		};
-		077D62532237CA1700E07124 /* NSString+Category */ = {
-			isa = PBXGroup;
-			children = (
-				077D62542237CA1700E07124 /* NSString+Category.h */,
-				077D62552237CA1700E07124 /* SXAttribute.h */,
-				077D62562237CA1700E07124 /* SXStringCategory.h */,
-				077D62572237CA1700E07124 /* SXAttribute.m */,
-				077D62582237CA1700E07124 /* NSString+Category.m */,
-			);
-			path = "NSString+Category";
-			sourceTree = "<group>";
-		};
-		077D62592237CA1700E07124 /* NSDate+Category */ = {
-			isa = PBXGroup;
-			children = (
-				077D625A2237CA1700E07124 /* NSDate+Category.m */,
-				077D625B2237CA1700E07124 /* NSDate+Category.h */,
-			);
-			path = "NSDate+Category";
-			sourceTree = "<group>";
-		};
-		077D625D2237CA1700E07124 /* UIImage+Category */ = {
-			isa = PBXGroup;
-			children = (
-				077D625E2237CA1700E07124 /* UIImage+Category.m */,
-				077D625F2237CA1700E07124 /* UIImage+Category.h */,
-			);
-			path = "UIImage+Category";
-			sourceTree = "<group>";
-		};
-		077D62602237CA1700E07124 /* UITextView+Category */ = {
-			isa = PBXGroup;
-			children = (
-				077D62612237CA1700E07124 /* UITextView+Category.m */,
-				077D62622237CA1700E07124 /* UITextView+Category.h */,
-			);
-			path = "UITextView+Category";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
